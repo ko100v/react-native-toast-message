@@ -6,7 +6,7 @@ export const HEIGHT = 60;
 export default StyleSheet.create({
   base: {
     flexDirection: 'row',
-    height: HEIGHT,
+    //height: HEIGHT,
     width: '90%',
     borderRadius: 6,
     backgroundColor: colors.white,
@@ -24,8 +24,8 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   icon: {
-    width: 20,
-    height: 20
+    width: 25,
+    height: 25
   },
   contentContainer: {
     flex: 1,
@@ -37,16 +37,16 @@ export default StyleSheet.create({
     justifyContent: 'center'
   },
   closeIcon: {
-    width: 9,
-    height: 9
+    width: 15,
+    height: 15
   },
   text1: {
-    fontSize: 12,
+    fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 3
   },
   text2: {
-    fontSize: 10,
+    fontSize: 16,
     color: colors.dustyGray
   }
 });
